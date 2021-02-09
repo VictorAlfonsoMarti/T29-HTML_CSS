@@ -1,0 +1,34 @@
+html{
+    background-color:gainsboro;
+}
+body {
+    font-family:  'Lucida Sans Unicode', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: gainsboro 2px solid;
+    text-align: justify;
+    margin: 10px;
+    }
+h1 { 
+    text-align: center;
+    color:olivedrab;
+    letter-spacing: .2em;
+    }
+    
+h2 {
+    color:yellowgreen;
+    border-bottom:gainsboro 2px solid;
+    }
+h3 { 
+    color:peru;
+    margin-top:30px;
+    margin-bottom:0; 
+    }
+.sierra{
+    color:peru;
+    } 
+.text {
+    border:lightgrey 2px solid;
+    margin: 25px 25px 15px 15px;
+    padding: 20px 15px 20px 15px;
+    }

@@ -1,0 +1,88 @@
+html{
+    background-color:gainsboro;
+}
+body {
+    font-family:  'Lucida Sans Unicode', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: gainsboro 2px solid;
+    text-align: justify;
+    margin: 10px;
+    width: 900px;
+    border-radius: 15px;
+    }
+h1 { 
+    text-align: center;
+    color:olivedrab;
+    letter-spacing: .2em;
+    background-image: url(../img/panoramica.jpg);
+    background-position: top-center;
+    background-repeat: no-repeat;
+    padding-top: 180px;
+    margin-left: 20px;
+    }
+    
+h2 {
+    color:yellowgreen;
+    border-bottom:gainsboro 2px solid;
+    }
+h3 { 
+    color:peru;
+    margin-top:30px;
+    margin-bottom:0; 
+    }
+.sierra{
+    color:peru;
+    } 
+.text {
+    border:lightgrey 2px solid;
+    margin: 25px 25px 15px 150px;
+    padding: 20px 15px 20px 15px;
+    background: linear-gradient(0deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 80%, rgba(220,220,220,1) 100%);
+    }
+#menu {
+    width: 80px;
+    float: left;
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+    }
+#menu li {
+    border: gainsboro 2px solid;
+    background: linear-gradient(0deg, rgba(152,203,48,1) 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    width: 100px;
+    }
+#menu li:hover {
+    border-color: gainsboro;
+    background: linear-gradient(0deg, olivedrab 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
+    }
+#menu li:hover a {
+    color: black;
+    } 
+#menu a { 
+    display: block; 
+    text-decoration: none; 
+    color:dimgrey;
+    }
+#menu li.actual, #menu li.actual:hover {
+    border: gainsboro 2px solid;
+    background: linear-gradient(0deg, bisque 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
+    }
+#menu li.actual:hover a{
+    color: black;
+    background: linear-gradient(0deg, peru 0%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
+    }
+div.copyright {
+    color: dimgray;
+    font-size: 85%;
+    text-align: center;
+    font-style: oblique;
+    }
+div.copyright a {
+    color: dimgray;
+    }

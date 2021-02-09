@@ -1,0 +1,69 @@
+html{
+    background-color:gainsboro;
+}
+body {
+    font-family:  'Lucida Sans Unicode', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border: gainsboro 2px solid;
+    text-align: justify;
+    margin: 10px;
+    width: 900px;
+    }
+h1 { 
+    text-align: center;
+    color:olivedrab;
+    letter-spacing: .2em;
+    }
+    
+h2 {
+    color:yellowgreen;
+    border-bottom:gainsboro 2px solid;
+    }
+h3 { 
+    color:peru;
+    margin-top:30px;
+    margin-bottom:0; 
+    }
+.sierra{
+    color:peru;
+    } 
+.text {
+    border:lightgrey 2px solid;
+    margin: 25px 25px 15px 150px;
+    padding: 20px 15px 20px 15px;
+    }
+#menu {
+    width: 80px;
+    float: left;
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+    }
+#menu li {
+    border: gainsboro 2px solid;
+    background-color: yellowgreen;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    }
+#menu li:hover {
+    border-color: gainsboro;
+    background-color: whitesmoke;
+    }
+#menu li:hover a {
+    color: black;
+    } 
+#menu a { 
+    display: block; 
+    text-decoration: none; 
+    color:dimgrey;
+    }
+#menu li.actual, #menu li.actual:hover {
+    border: gainsboro 2px solid; 
+    background-color:bisque;  
+    }
+#menu li.actual a, #menu li.actual:hover a{
+    color: black;
+    }

@@ -1,0 +1,32 @@
+body{
+    background-color: peachpuff;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+    font-size: 18px;
+}
+h1{
+    padding: 3px;
+    background-color: sandybrown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: steelblue;
+    font-style: italic;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 3px;
+}
+.puntos{
+    color:teal;
+    font-style: italic;
+}
+.titulo3{
+    color:teal;
+    font-weight: bold;
+}
+.lista{
+    margin-left: 30px;
+}
